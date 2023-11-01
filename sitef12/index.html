@@ -5,7 +5,7 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="app.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> F1 Sport</title>
@@ -82,14 +82,14 @@
         </section>
         <br><br>
 
-        <section id="Home" >
+        <section id="Home">
             <div class="row g-2 bg-body-secondary position-relative ">
                 <div class="col-md-6 mb-md-0 p-md-4">
                     <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/Y6NWLATFYFFNFDPLUPE4A55UZU.jpg"
                         class="w-100 rounded shadow-lg" alt="250">
                 </div>
                 <div class="col-md-6 p-5 ps-md-4 ">
-                    
+
                     <h3 class="mt-1 ">Os Grandes da Formula 1</h3>
                     <p class="lh-2">
                     <p class="fw-medium">A Fórmula 1 é, de fato, uma das categorias mais populares e prestigiosas do
@@ -103,7 +103,7 @@
                     <a class="btn btn-primary" href="historiaf1.html" role="button">Materia Completa</a>
                 </div>
 
-                </div>
+            </div>
             </div>
 
 
@@ -124,7 +124,7 @@
                         paixão dos fãs e sua contribuição duradoura para o esporte. A equipe também possui uma base de
                         fãs global extremamente leal e é conhecida por suas cores vermelhas distintas e seu papel
                         central na história da Fórmula 1.</p>
-                        <a class="btn btn-primary" href="scuderiaferrari.html" role="button">Materia Completa</a>
+                    <a class="btn btn-primary" href="scuderiaferrari.html" role="button">Materia Completa</a>
                 </div>
             </div>
 
@@ -132,8 +132,8 @@
 
             <div class="row g-2 bg-body-secondary position-relative">
                 <div class="col-md-6 mb-md-0 p-md-4">
-                    <img src="https://www.f1mania.net/wp-content/uploads/2023/02/M350449.jpg" class="card-img-top rounded shadow-lg"
-                        class="w-100 " alt="250">
+                    <img src="https://www.f1mania.net/wp-content/uploads/2023/02/M350449.jpg"
+                        class="card-img-top rounded shadow-lg" class="w-100 " alt="250">
                 </div>
                 <div class="col-md-6 p-5 ps-md-4">
                     <h3 class="mt-1">Mercedes a grande força da Formula 1</h3>
@@ -149,7 +149,7 @@
                         estabeleceu as bases para uma trajetória repleta de conquistas e recordes ao longo dos anos,
                         consolidando a Mercedes-Benz como uma das equipes mais proeminentes e bem-sucedidas na história
                         da Fórmula 1.</p>
-                        <a class="btn btn-primary" href="mercedes.html" role="button">Materia Completa</a>
+                    <a class="btn btn-primary" href="mercedes.html" role="button">Materia Completa</a>
                 </div>
             </div>
 
@@ -162,16 +162,37 @@
                 <label for="exampleFormControlInput1" class="form-label">Email </label>
                 <input type="email" class="form-control" id="exampleFormControlInput1"
                     placeholder="supervelocidadef1@gmail.com">
+                <input class="btn btn-primary btn-sm" type="button" value="Enviar" data-bs-toggle="modal" data-bs-target="#modalenviar">
+
             </div>
             <div class="mb-4">
                 <label for="exampleFormControlTextarea1" class="form-label">Deixe seu Comentario</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                <input class="btn btn-primary btn-sm" type="button" value="Enviar" data-bs-toggle="modal" data-bs-target="#modalenviar">
             </div>
             <p>
             <p class="fw-medium">Nossa equipe está comprometida em responder às suas mensagens o mais rápido possível.
                 Agradecemos por
                 sua visita ao nosso site de Fórmula 1 e esperamos poder ajudá-lo em tudo o que você precisar. Vamos
                 juntos acelerar nesta jornada emocionante!</p>
+
+            <div class="modal" tabindex="-1" id="modalenviar">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Confirmação</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Voce Realmente quer enviar?</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</a>
+                            <a type="button" class="btn btn-primary" href="#Contato" >Enviar</a>
+                          
+                    </div>
+                </div>
+            </div>
 
         </section>
 
@@ -180,7 +201,7 @@
     </main>
 
     <footer>
-        
+
         <p class="fw-medium">&copy; 2023 Super Velocidade F1. Todos os direitos reservados.</p>
     </footer>
 
